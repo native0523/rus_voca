@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="#000000"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.3"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.3">
+
+            <LinearLayout
+                android:id="@+id/frame1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ced4da"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible">
+
+                    <Button
+                        android:id="@+id/frameBtn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="페이지로 이동"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/vocaCont1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:lineSpacingExtra="10sp"
+                        android:padding="10dp"
+                        android:text="■ 1번) прошлый:지난 / сильный: 강한 / мороз: 추위, 영하 (прошлый год이 в와 결합해 전치격 변화. / быть는 현재형으로는 쓰지 않음(동사원형은 가능))\n\n■ 2번) паук: 거미 / большой: 큰 / иметь успех: 성공하다\n\n■ 3번) дожидаться 생격: (참을성있게)기다리다\n\n■ 4번) дело-дела: 일 / касаться 생격: ~와 관계 없다\n\n■ 5번) обмануть 대격: ~를 속이다 печалиться: 슬퍼하다 / сердиться:화내다 (푸쉬킨의 유명한 시 구절. 쉼표 앞에서 가정문, 뒤에서 명령문 형태.)\n\n■ 6번) день: 하루, 낮 / зайти: (걸어서)들르다 / кабинет: 서재, 사무실 / на днях: 최근에 (ь로 끝나면 대개 여성명사)\n\n■ 7번) рука: 손 / влажный: 습기의 (рука 때문에 влажный가 여성형으로 변화)\n\n■ 8번) раз: ~번(회), ~배 / получиться: 얻어지다 / не очень: 별로, 그닥 (получиться는 보통 회화에서 과거형으로 자주 쓰임)\n\n■ 9번) Еще: 아직, 더 / работа: 일, 작업, 작품 (много + 생격, нужно + 동사원형)\n\n■ 10번) спрашивать 대격: 물어보다 / слово-слова: 단어, 말 / хорошый: 좋은 (문두에 명령문)"
+                        android:textColor="#333"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#add0ff"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible">
+
+
+                    <Button
+                        android:id="@+id/frameBtn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="페이지로 이동"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="9.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/vocaCont2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:lineSpacingExtra="10sp"
+                        android:padding="10dp"
+                        android:text="■ 11번) должный:~해야하는 / вернуться: 돌아가다 / свой: 자기자신의 (должны은 단어미형으로서 вы 때문에 어미 변화. вернуться의 방향으로 на + 대격 사용)\n\n■ 12번) лицо: 얼굴, 표정, 개성 / необязательно: 필수아닌(부사) / являться 조격: ~이다 / член: 일원\n\n■ 13번) Прошлое:과거 / иметь значения: 의미하다 / беда:불행,액 (Прошлое처럼 형용사같은 명사 존재. 여기서 в + 전치격은 '상태' 의미)\n\n■ 14번) глаз-глаза: 눈 на глазах:~의 면전에 / убить 생물: 죽이다 (동사에 맞춰 человек이 격변화)\n\n■ 15번) вопрос: 질문, 문제 / собственный: 자신의, 고유한 / способ: 방법 / задавать вопрос: 질문하다 (У + 생격 형태는 소유,근처 등을 의미)\n\n■ 16번) иметь: 가지다 (Токио는 독특하게도 격변화하지 않음)\n\n■ 17번) сторона: 방향, 면 / постараться: 노력하다 / искренне: 진심으로 / собеседник: 상대방 (со стороны: 자음이 연달아 3개가 오는 것을 막기 위해 с 뒤에 о 첨가)\n\n■ 18번) обязанный: ~할 의무가 있는 / защищать 대격: 지키다, 보호하다 (обязано는 단어미형)\n\n■ 19번) мир: 1. 세계,지구, 2. 평화 / совершенно: 완전히, 전혀 / взгляд: 시선, 생각, 관점\n\n■ 20번) случай: 경우, 기회 / сохранить: 보호하다 / вещь-вещи(ж.): 물건, 것 / на случай: ~를 대비하여 / возвращение: 반환, 복귀 (Сказали, говорят처럼 주어 없이 동사복수형 자주 사용)"
+                        android:textColor="#333"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f29886"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/frameBtn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="페이지로 이동"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="9.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/vocaCont3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:lineSpacingExtra="10sp"
+                        android:padding="10dp"
+                        android:text="■ 21번) кружиться: 돌다\n\n■ 22번) же: 강조 소사(품사) / всего лишь: 고작, 일개 / знать: 알다 (주어는 동일해서 생략)\n\n■ 23번) сила: 힘 / настоящый: 현재의, 진짜의 (ей는 она(그녀)의 조격. 전치사 с와 결합하면 с ней, с ним)\n\n■ 24번) конец: 끝 / поддержка: 지원, 응원 / прокуратура: 검찰, 검사 / мочь-смочь: 할 수 있다 / положить 여격 конец: ~를 끝내다\n\n■ 25번) вид: 모습, 형태, 경치 / простой: 단순한 / сложный: 복잡한 / подобно + 여격: ~와 비슷하게 (прост, сложен은 단어미)\n\n■ 26번) система: 체계 / долголетний: 다년의 / борьба: 싸움 / наконец: 마침내 / ликвидировать: 청산하다 / апартеида: 남아공 인종차별정책 (ликвидировать에서 의미 파생된 단어미형)\n\n■ 27번) часть: 부분 / начинаться: 시작되다 / веселый: 즐거운, 재밌는 / представление: 연극 (주어가 길어 뒤에 서술)\n\n■ 28번) Осень: 가을 / оккупировать: 점령하다 / немецкий: 독일의 / войска(항상 복수형): 군대 (계절 시기를 뜻할 때는 조격 사용)\n\n■ 29번) надеяться: 기대하다 / усилие: 노력 / позволять: 허락하다, 가능케하다 / улучшить: 개선하다 / будущее: 미래 / международный: 국제의\n\n■ 30번) удивительно: 놀랍다 / любить: 사랑하다 / им: они 여격 / врать: 거짓말하다"
+                        android:textColor="#333"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/frame4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f5f1a7"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/frameBtn4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:text="페이지로 이동"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="9.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/vocaCont4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:lineSpacingExtra="10sp"
+                        android:padding="10dp"
+                        android:text="■ 31번) Почти / весь : 모든 / деньги(항상 복수): 돈 / пойти: (걸어서)가다 / разработка: 개발 / технология: 기술 (деньги는 언제나 복수. деньги 때문에 весь가 복수 все로 바뀌었음. новые технология가 생격처리)\n\n ■ 32번) Земля: 지구, 땅 / вращаться: 돌다, 회전하다 / вокруг: ~주위에, 주위를 / Солнце: 태양, 해\n\n ■ 33번) Помнить: 기억하다 / шли: идти 과거 복수 / детская площадка: 놀이터 / дорога: 길, 도로 / машина: 기계, 자동차 / стоять: 서있다 (дорога와 전치사 на를 결합해 장소를 표현)\n\n ■ 34번) разделка: 나눔, 분배(부분으로 나누는 것) / рыба: 생선 / промывать: 씻다 / холодный: 차가운 / чистый: 깨끗한\n\n ■ 35번) вспоминать: 회상하다 / времена: время 복수 / помогать кому: 돕다 / вести дела: 사업하다, 일하다 / ферма: 농장 / берег: 가장자리, 기슭 (помогать는 돕는 대상이 대격이 아닌 여격임을 주의)\n\n■ 36번) появление: 출현 / философия: 철학 / марксизм: 마르크스주의 / тесный: 밀접한, 꽉 끼는 / связанный: 관련된 / решение: 해결(책) / главный: 중요한 / эпоха: 시대 (связанный의 단어미형이 появление에 맞춰 중성으로 쓰임)\n\n ■ 37번) заблудиться: 길을 잃다 / домой: 집으로(방향) / поужинать: 저녁식사하다 / веранда: 베란다 (앞서 언급한 것처럼 종종 주어가 생략됨)\n\n ■ 38번) факультет: 학부 / изучать: (학문적으로 깊게)배우다, 연구하다\n\n ■ 39번) сидеть: 앉다 положить: 놓다 / нога: 발, 다리 (сидеть где의 형태)\n\n■ 40번) менеджмент: 경영, 매니지먼트 / обещать: 약속하다 / простый: 단순한, 간단한 / сложный: 복잡한 (по는 범위를 의미)"
+                        android:textColor="#333"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#83dcb7"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right">
+
+                    <Button
+                        android:id="@+id/frameBtn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif"
+                        android:text="페이지로 이동"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="9.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/vocaCont5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:lineSpacingExtra="10sp"
+                        android:padding="10dp"
+                        android:text="■ 41번) Многий: 많은 / комната: 방 / отвориться: 열리다 / порог: 문턱, 입구 / появиться: 나타나다 / чудной: 이상한\n\n■ 42번) Милый: 사랑스러운 / девочка: 여자아이(cf.девушка: 아가씨) / светлый: 밝은 / длинный: 긴 / волосы: 머리카락(복수) / прекрасный: 아름다운 / улыбка: 미소 / образ: 모습, 이미지, 방식 / до сих пор: 지금까지 / перед 조격: ~앞에 (전치사 с, перед와 함께 조격 사용)\n\n■ 43번) рано: 빨리, 이르게 / поздно: 늦게 / человеческый: 인류의 / кончиться: 끝나다 (что절 이하가 목적어)\n\n■ 44번) Верховный: 최고의 / власть: 권력 / Республика: 공화국 / принадлежать 여격: ~에 속하다 / народ: 국민, 민족 (Республика 뒤에 나오는 국가명은 격변화하지 않는다)\n\n■ 45번) мочь: 할 수 있다 / распространять: 확대하다, 퍼지다 / запрещение: 금지 / государственный: 국가의 / служащий: 사무원 (+.госслужащий: 공무원 (대상이 사람이라서 복수 대격으로 격변화)\n\n■ 46번) Нам: мы 여격 / предстоять: 임박하다, 기다리고 있다 / война: 전쟁(+.война и мир: 전쟁과 평화) / сильный: 강한, 우수한 / враг: 적\n\n■ 47번) бог: 신 / Слава Богу: 다행히, 잘 / сегодня: 오늘 / намного лучше: 훨씬 더 / Вчера: 어제 / вовремя: 제때, 마침(cf.во время 생격: ~동안) / вызвать: 부르다 / врач: 의사 / выиграть: 이기다, 시간을 벌다 / лечение: 치료\n\n■ 48번) Раньше: 예전에 / петь: 노래하다 / тенор: 테너 / сейчас: 지금 / низкий: 낮은 / голос: 목소리, 성량 (직업을 조격으로 사용, 소유의 у кого 형태)\n\n■ 49번) Самый: 가장 ~한, 바로 그 ~ / последний: 마지막의, 최근의, 최신의 / тысяча: 천(1000) / материальный: 사물의, 물질적인 / стать 조격: ~이 되다 / жить: 살다 (удивительное처럼 형용사 중성이 명사처럼 사용되기도 함, 여기서 за는 기간)\n\n■ 50번) мир: 세계, 평화 / ежегодно: 매년 / печататься: 출판되다 / миллион: 백만 (책이 출판'되는' 것이므로 재귀동사가 사용, миллионы를 수식하는 книги의 복수 생격 книг)"
+                        android:textColor="#333"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/switchHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="홈"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/switchF1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="~ 10"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/switchF2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="~ 20"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/switchF3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="~ 30"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/switchF4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="~ 40"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/switchF5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="~ 50"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
